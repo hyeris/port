@@ -87,6 +87,7 @@ header{
     }
     .mm>div{
         margin:auto;
+        text-align: center;
     
     }
 
@@ -219,6 +220,7 @@ header{
         }
         .mm>div{
             margin:auto;
+            text-align: center;
         
         }
     
