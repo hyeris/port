@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{margin:0;}
+h1,h2,h3,h4,h5,h6,figure,p,div{margin:0;}
+a{text-decoration: none;}
+ul,li{list-style-type: none; padding:0; margin:0;}
+img{vertical-align: middle;}
+
+body{
+    background-color: rgb(224, 216, 206); 
+    position: relative; 
+}
+.li{
+    width: 1px;
+    height: 100%;
+    border-left: 1px solid rgba(165, 159, 159, 0.5);
+    margin: auto;
+    position: absolute;
+    left: 50%;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid rgba(165, 159, 159, 0.5);;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+}
+
+header{
+position: relative;
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 2%;
+padding-bottom: 2%;
+vertical-align: middle;
+text-align: center;
+}
+header > a> h1{
+    text-align: center;
+    position: absolute;
+    left:48%;
+    color: rgb(94, 94, 94);
+    font-weight: 100;
+    font-size: 20px;
+    margin-right: 10vw;
+    
+
+}
+
+header > nav{
+    
+}
+header > nav:nth-of-type(1){
+    display: flex;
+    justify-content: space-between;
+}
+header > nav div{
+    display: flex;
+}
+
+header > nav    a {
+    color: black;
+    font-size: 40px;
+    
+    text-transform:uppercase;
+    
+}
+header > nav    a:hover{
+    color:red
+}
+header > nav a >span{
+    font-size: 12px;
+    display: block;
+    text-transform:capitalize;
+    letter-spacing: 1px;
+}
+
+header > nav > div > p:nth-of-type(1) > a{
+    color: red;
+}
+    
+/*header*/
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+main .mainall{
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+
+}
+main .mainall > div{
+    width: 50%;
+}
+main .mainall .mainone{
+position:sticky;
+top:3vw;
+}
+
+main .mainall .mainone img{
+    width: 100%;
+    
+}
+
+main .mainall .mainone .con{
+    display: flex;
+    
+
+    background-color: rgba(255, 250, 250,0.6);
+    padding:2%
+}
+main .mainall .mainone .con>div:nth-of-type(1){
+
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+}
+main .mainall .mainone .con>div:nth-of-type(2){
+    padding-left: 2%;
+}
+
+
+
+main .mainall .maintwo{
+    background-color: bisque;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5vw;
+}
+.hello{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.hello >p{
+font-size: 30px;
+font-weight: bold;
+}
+
+
+.works{
+    margin-bottom: 3%;
+}
+.works>p:nth-of-type(1){
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 13px;
+    margin-bottom: 1%;
+    
+}
+.works>p:nth-of-type(2){}
+
+.life{
+    padding-bottom: 5%;
+}
+
+.life>p:nth-of-type(1){
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 13px;
+    margin-bottom: 1%;
+}
+.life>p:nth-of-type(2){}
+
+.skill{
+    width: 90%;
+
+    margin: 0 auto;
+    padding: 2% 0;
+
+    font-weight: bold;
+    color: rgb(39, 39, 38);
+    margin-top: 1%;
+}
+.skill >h2{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2vw;
+}
+.skill > div >div{
+    display: flex;
+    align-items: center;
+    padding: 2% 0;
+}
+.skill > div> div >p:nth-of-type(1){
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 3%;
+}
+.skill > div> div >p:nth-of-type(2){
+    
+    
+}
+.skill > div > div:nth-of-type(1)>p:nth-of-type(1)>img{
+    width: 60px;
+    height: 60px;
+}
+.skill > div > div:nth-of-type(2)>p:nth-of-type(1)>img{
+    width: 60px;
+    height: 60px;
+}
+.skill > div > div:nth-of-type(3)>p:nth-of-type(1)>img{
+    width: 60px;
+    height: 60px;
+}
+.skill > div > div:nth-of-type(4)>p:nth-of-type(1)>img{
+    width: 60px;
+    height: 60px;
+}
+.skill > div > div:nth-of-type(5)>p:nth-of-type(1)>img{
+    width: 60px;
+    height: 60px;
+}
+.skill > div > div:nth-of-type(6)>p:nth-of-type(1)>img{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+/* 
+========================================================================================================================================
+=============================================================1180===========================================================================
+======================================================================================================================================== 
+*/
+
+
+@media (min-width:992px) and (max-width:1180px) {
+    body{
+        background-color: rgb(224, 216, 206); 
+        position: relative; 
+    }
+    .li{
+        width: 1px;
+        height: 100%;
+        border-left: 1px solid rgba(165, 159, 159, 0.5);
+        margin: auto;
+        position: absolute;
+        left: 50%;
+    }
+    .line{
+        width: 100%;
+        height: 1px;
+        border-top: 1px solid rgba(165, 159, 159, 0.5);;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+    }
+    
+    header{
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    vertical-align: middle;
+    text-align: center;
+    }
+    header > a> h1{
+        text-align: center;
+        position: absolute;
+        left:48%;
+        color: rgb(94, 94, 94);
+        font-weight: 100;
+        font-size: 20px;
+        margin-right: 10vw;
+        
+    
+    }
+    
+    header > nav{
+        
+    }
+    header > nav:nth-of-type(1){
+        display: flex;
+        justify-content: space-between;
+    }
+    header > nav div{
+        display: flex;
+    }
+    
+    header > nav    a {
+        color: black;
+        font-size: 40px;
+        
+        text-transform: capitalize;
+        
+    }
+    header > nav    a:hover{
+        color:red
+    }
+    header > nav a >span{
+        font-size: 12px;
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    
+    header > nav > div > p:nth-of-type(1) > a{
+        color: red;
+    }
+        
+    /*header*/
+    
+    main{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    main .mainall{
+        width: 90%;
+        display: flex;
+        align-items: flex-start;
+        margin: 0 auto;
+    
+    }
+    main .mainall > div{
+        width: 50%;
+    }
+    main .mainall .mainone{
+    position:sticky;
+    top:6vw;
+    
+    }
+    
+    main .mainall .mainone img{
+        width: 100%;
+        
+    }
+    
+    main .mainall .mainone .con{
+        display: flex;
+        
+         
+      
+        background-color: rgba(255, 250, 250,0.6);
+        padding:2%
+    }
+    main .mainall .mainone .con>div:nth-of-type(1){
+    
+        font-size: 25px;
+        text-align: left;
+        font-weight: bold;
+    }
+    main .mainall .mainone .con>div:nth-of-type(2){
+        padding-left: 2%;
+    }
+    
+    
+    
+    main .mainall .maintwo{
+        background-color: bisque;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5vw;
+    }
+    .hello{
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .hello >p{
+    font-size: 30px;
+    font-weight: bold;
+    }
+    
+    
+    .works{
+        margin-bottom: 3%;
+    }
+    .works>p:nth-of-type(1){
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 13px;
+        margin-bottom: 1%;
+        
+    }
+    .works>p:nth-of-type(2){}
+    
+    .life{
+        padding-bottom: 5%;
+    }
+    
+    .life>p:nth-of-type(1){
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 13px;
+        margin-bottom: 1%;
+    }
+    .life>p:nth-of-type(2){}
+    
+    .skill{
+        width: 90%;
+    
+        margin: 0 auto;
+        padding: 2% 0;
+    
+        font-weight: bold;
+        color: rgb(39, 39, 38);
+        margin-top: 1%;
+    }
+    .skill >h2{
+        color: black;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 2vw;
+    }
+    .skill > div >div{
+        display: flex;
+        align-items: center;
+        padding: 2% 0;
+    }
+    .skill > div> div >p:nth-of-type(1){
+        font-size: 50px;
+        font-weight: bold;
+        margin-right: 3%;
+    }
+    .skill > div> div >p:nth-of-type(2){
+        
+        
+    }
+    .skill > div > div:nth-of-type(1)>p:nth-of-type(1)>img{
+        width: 60px;
+        height: 60px;
+    }
+    .skill > div > div:nth-of-type(2)>p:nth-of-type(1)>img{
+        width: 60px;
+        height: 60px;
+    }
+    .skill > div > div:nth-of-type(3)>p:nth-of-type(1)>img{
+        width: 60px;
+        height: 60px;
+    }
+    .skill > div > div:nth-of-type(4)>p:nth-of-type(1)>img{
+        width: 60px;
+        height: 60px;
+    }
+    .skill > div > div:nth-of-type(5)>p:nth-of-type(1)>img{
+        width: 60px;
+        height: 60px;
+    }
+    .skill > div > div:nth-of-type(6)>p:nth-of-type(1)>img{
+        width: 60px;
+        height: 60px;
+    }
+}
